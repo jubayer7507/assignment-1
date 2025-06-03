@@ -1,0 +1,164 @@
+/* global styles */
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+
+}
+.btn-container{
+    box-sizing: border-box;
+border: .5px solid rgb(13, 19, 33);
+border-radius: 6px;
+opacity: 0.8;
+padding:12px 20px ;
+font-family: Azeret Mono;
+font-weight: 600;
+
+}
+.big-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+.description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+}
+/* header-title styles */
+#header-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 130px;
+}
+/* banner styles */
+#banner{
+    background-image: url(assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 650px;
+    padding-bottom: 20px;
+
+
+}
+.banner-container{
+    text-align: center;
+    padding: 100px 50px ;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.banner-btn{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+border-radius: 6px;
+
+background: rgb(13, 19, 33);
+padding: 20px;
+margin-top: 20px;
+}
+/* main styles */
+main{
+    margin: 0 150px ;
+}
+/* development styles */
+#development{
+    border-radius: 12px;
+background: rgba(13, 19, 33, 0.02);
+margin-top: 30px;
+padding: 80px 100px;
+}
+.development-container{
+    min-width: 950px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:40px ;
+}
+.developer-card-container{
+    min-width: 950px;
+}
+.card-title{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+}
+.development-header {
+    padding:0 20px ;
+}
+.development-header h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+.card{
+    
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+   background-color: white;
+   margin: 30px 0px;
+}
+.card-container{
+    max-width: 350px;
+    text-align: left;
+}
+.card-container .description{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* inspiration styles */
+#inspiration{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.inspiration-container{
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+.inspiration-container  h2{
+    text-align: center;
+}
+
+.inspiration-container p{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inspiration-video{
+    box-sizing: border-box;
+border: .5px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 20px;
+}
+iframe{
+    border-radius: 16px;
+}
+/*  */
