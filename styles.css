@@ -161,4 +161,55 @@ padding: 20px;
 iframe{
     border-radius: 16px;
 }
-/*  */
+/* target styles */
+#target{
+    margin-top: 120px;
+
+}
+.target-container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 80px;
+}
+.target-container h2{
+    text-align: center;
+}
+.target-tabs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.tab{
+    max-width:350px ;
+    padding: 40px;
+    text-align: left;
+}
+.tab p{
+    text-align: left;
+    margin:20px 0px;
+}
+#tab-1{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+#tab-2{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+#tab-3{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+.target-tabs a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 600;
+text-align: left;
+text-decoration-line: underline;
+}
